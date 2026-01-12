@@ -13,5 +13,7 @@ struct Aesthetic_PlayerApp: App {
         WindowGroup {
             ContentView()
         }
+        // Optional: Hide the title bar for a true full-screen feel
+        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }
